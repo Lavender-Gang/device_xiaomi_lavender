@@ -14,6 +14,12 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+EVEREST_MAINTAINER := tilt-rgb
+TARGET_SUPPORTS_BLUR := true
+WITH_GAPPS := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+
 PRODUCT_NAME := lineage_lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
