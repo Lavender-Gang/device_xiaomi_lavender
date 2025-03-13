@@ -1229,81 +1229,87 @@ vendor/lib64/vendor.qti.gnss@2.1.so|a395bb7d4df874c0e0efadf8ef51d3510afedad3
 vendor/lib64/vendor.qti.gnss@3.0-service.so|947bfafbf110d70656f434ab5845b6691b6b61c1
 vendor/lib64/vendor.qti.gnss@3.0.so|ff1733d10abd97fa4381c798ae74b4cc5dac39e8
 
-# Graphics - from LA.UM.8.2.1.r1-05600-sdm660
-vendor/lib/egl/eglSubDriverAndroid.so|e72aefcf9fa50a01f53558ea7886e2d70b3a57a9
-vendor/lib/egl/libEGL_adreno.so|4ee0c196818b5f460853f0fdea1e7c586b889c88
-vendor/lib/egl/libGLESv1_CM_adreno.so|35180cd115c1d9dcc7ed33a4add281a365d8ec9c
-vendor/lib/egl/libGLESv2_adreno.so|88dff184e6a61e033bb1a7bacb6eba4c0cb03585
-vendor/lib/egl/libQTapGLES.so|62647fc17de97ffeac871a4603134b5cc659a34d
-vendor/lib/egl/libq3dtools_adreno.so|5d25d3f8d5f5e86f6d1b83df3a15561ff257756d
-vendor/lib/egl/libq3dtools_esx.so|35ba313e7e00d40dbf0bde82a335a6f257f67a07
-vendor/lib/libC2D2.so|c189d8794a261824b8fdeca4e65d63eb92c0cc0a
-vendor/lib/libCB.so|40781c9f53058fdeb957fb581b22eb00fc98b9f3
-vendor/lib/libOpenCL.so|6fe1ec3442653efedf49f64aa9301e0ed91abac0
-vendor/lib/libadreno_utils.so|54eedfc81c3228ade708c4ebc8dd0cc25fcd46cf
-vendor/lib/libbccQTI.so|0be327b62b993d09953fc0758fbf19672d58d3ec
-vendor/lib/libc2d30_bltlib.so|3ff9baf59a1e1c56b91a0f509a2dfd36c9e96be2
-vendor/lib/libgsl.so|82c39541f2486ed02ff7a8222deb402156957e5f
-vendor/lib/libllvm-glnext.so|017017256eda565d7c2fa1b8f2b0f5e720ddb321
-vendor/lib/libllvm-qcom.so|c7af1844b19258ad6eb822fa56d0ce5fd3df232b
-vendor/lib/librs_adreno.so|11eaa78d76d9f0e5f34ce5db2b08d5039171e4c9
-vendor/lib/librs_adreno_sha1.so|687de9471eaa1dab7b8180c327f0025b715cdf7e
-vendor/lib64/egl/eglSubDriverAndroid.so|2f5f0f8dff2e5a52f5852a9dcdb844d348b934bc
-vendor/lib64/egl/libEGL_adreno.so|881af356ca2f30d993fd2a859d1ad93a704a754f
-vendor/lib64/egl/libGLESv1_CM_adreno.so|ee3604131af93e38baaf0cdff49523514cd1f1b2
-vendor/lib64/egl/libGLESv2_adreno.so|dad071f2a4a31a9d33efb3b7f0d9a5f714cdb1fe
-vendor/lib64/egl/libQTapGLES.so|8a82cd42126f848b0fa2470dbcdcbe02585627a3
-vendor/lib64/egl/libq3dtools_adreno.so|07c3b406aa055abfdb3358833d02cb5133964d37
-vendor/lib64/egl/libq3dtools_esx.so|65a22fbfb7f471cd159290c4a7cc755f1a772c6c
-vendor/lib64/libC2D2.so|802802ac7ce0bb8bfc6918449a89ec820c6cfd53
-vendor/lib64/libCB.so|73bf583b32ef7411457059bf3332a0302bbe4a69
-vendor/lib64/libOpenCL.so|d6bb350254707592d6f6360c06d4c3336f8f1155
-vendor/lib64/libadreno_utils.so|7723561e4c15c8cda5639ab36c0fb80cefbad783
-vendor/lib64/libbccQTI.so|42fdea81ea505ccadbf6d24af7ba37cf83760391
-vendor/lib64/libc2d30_bltlib.so|efda0093baa46c8138ac98f29d417e0b72125e24
-vendor/lib64/libgsl.so|f96de536b890019adce81adad75edebe12bf22ee
-vendor/lib64/libllvm-glnext.so|3a4a045ea85877e814a9954ced7ec6baa8e04210
-vendor/lib64/libllvm-qcom.so|f405f07c443129f0a82c87b528d690e26afcbe4e
-vendor/lib64/librs_adreno.so|3d0a23777e7bdd979a0c84d9da731ae15d58af68
-vendor/lib64/librs_adreno_sha1.so|e6069c4de97498e0ef4116e985cbbb9b4a2e283d
+# Graphics - from Zebra/helios/helios:14/14-23-05.00-UG-U05-STD-HEL-04/5:user/release-keys
+vendor/lib/egl/eglSubDriverAndroid.so|501f7cf3ec55d4ded5f5921e4fe0a0822d077d46
+vendor/lib/egl/libEGL_adreno.so;SYMLINK=vendor/lib/libEGL_adreno.so|42f0f4ab0ca69d7ba880bb9afcb0fb6f4290df98
+vendor/lib/egl/libGLESv1_CM_adreno.so|1e6924d8c36508360d38e764618b25b0443c4d8e
+vendor/lib/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib/libGLESv2_adreno.so|1c6a646580bff7f4baf4aaf6d4eb0c2f7a55b75f
+vendor/lib/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib/libq3dtools_adreno.so|f59f0611355ff8b5ce3cfb97abdf49f5183052ac
+vendor/lib/egl/libq3dtools_esx.so|fcbda2e21ccfebbd1c97c1ce6314fef3bbd412b5
+vendor/lib/libadreno_utils.so|57dc2426c25c16a4f250f23a7dae9d7239c349d1
+vendor/lib/libC2D2.so|052f9701170bbfd82b6f028ad2524baff5aa1eab
+vendor/lib/libc2d30_bltlib.so|6e086b51de5f0b8fb45b18fdec7b4e7d5182420b
+vendor/lib/libCB.so|9098523ace3f4e00db7233b2920d2a788e442a8f
+vendor/lib/libgpudataproducer.so|a0e6988854846363fe40c7ccfc3353c09a25d17c
+vendor/lib/libgsl.so|ac60cdedd871e7c7d3e9480bad67f9b30fa9f264
+vendor/lib/libllvm-glnext.so|821440a54f02c2ed401f0ac646475cb6e8fc171f
+vendor/lib/libllvm-qcom.so|8fd3c7d00f8ead582722be57a997ff25ef50558a
+-vendor/lib/libOpenCL.so|b2cf8b9102129029c56bbeaf6a3e4728c2ca6a57
+vendor/lib/librs_adreno.so|53c5e960452f14958e6893241995d1a42e576823
+vendor/lib/libVkLayer_q3dtools.so|fc2e7f99efb17245202d500be0df0bc5eb19b23e
+vendor/lib64/egl/eglSubDriverAndroid.so|52cc62010df3eabdd440fc756e2c4abee35dabeb
+vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so|ccb68f54eda4135c29b2cf059cc5d9cc2ed6b029
+vendor/lib64/egl/libGLESv1_CM_adreno.so|eac8a37f8a2cc19cfd0285ec54b0ea1bacfd7430
+vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so|e3266eddb7e966ae0edadacfa589f4271000feb1
+vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so|7c40ea686640d4a481aacd2426347ef6abb593e7
+vendor/lib64/egl/libq3dtools_esx.so|6e2e9bc150592ef22b96f26d31244f8a2a4495e3
+vendor/lib64/libadreno_utils.so|fd2e8e7ef74a136cab7e309827f5aaab402c9b37
+vendor/lib64/libC2D2.so|71f0be54afc7f8f9c8feeb9debc849706f8fb698
+vendor/lib64/libc2d30_bltlib.so|a9eb5dcac16a17967b7418f7359070e150e519af
+vendor/lib64/libCB.so|0ce369aa3a8fe8da04a1fbc1684051172d73fdaf
+vendor/lib64/libgpudataproducer.so|d94dab3cf584dde69c0fe22ac85266c0da9eac85
+vendor/lib64/libgsl.so|d39c92144b3bde0a15be1a0c9599ee957e3f79c0
+vendor/lib64/libllvm-glnext.so|b7f8cb7a5ab0056322cecce80172aff7c3decf0c
+vendor/lib64/libllvm-qcom.so|b55e4fbe013caee2357f77397be052db5d9e4484
+-vendor/lib64/libOpenCL.so|c37467e36804a74722059a36e3dce3a7befb7f2f
+vendor/lib64/librs_adreno.so|3f8bccf5b5907cebc0d4edb2e804dc3f57fdf8eb
+vendor/lib64/libVkLayer_q3dtools.so|46d0b3b271d3f9c18f56f309cafb7630ce418f3a
 
-# Graphics (HDR) - from LA.UM.8.2.1.r1-05600-sdm660
-vendor/lib/libhdr_tm.so|0104cdb2789ab1fb54b6b93564300f13ffeefc39
-vendor/lib64/libhdr_tm.so|0744584d9e30a921898695c89e96293901437c08
+# Graphics (HDR) - from Zebra/helios/helios:14/14-23-05.00-UG-U05-STD-HEL-04/5:user/release-keys
+vendor/lib/libhdr_tm.so|9e9a3b4f22d443fb67dabe58e6e9ba0c4423621e
+vendor/lib64/libhdr_tm.so|d8b25ba8b8f8a157b2a6f9ba6fb0d89a96dd4030
 
-# Graphics (SDM) - from LA.UM.8.2.1.r1-05600-sdm660
-vendor/lib/libqseed3.so|44f99b99b831227491e320a3098c8defe8df0781
-vendor/lib/libsdm-color.so|05e6eedb8f9656d9097a1c3cee09ceeef1025181
-vendor/lib/libsdm-diag.so|f560622d31fa58c6b3ee2843d7485ddfd246d064
-vendor/lib/libsdmextension.so|2fce25b72c288730e345d7241922c10fcfc0e96e
-vendor/lib/libtinyxml2_1.so|89e1b1af10209dbb8d341cd314750cc64fc33852
-vendor/lib64/libqseed3.so|6779aaf96283e244122f4cc76cd3cb750ff14ed5
-vendor/lib64/libsdm-color.so|9c80ac4e059bff1c53814e9f5f71a5fbe38bce40
-vendor/lib64/libsdm-diag.so|35206a3a9b7ed56317511bb72f89fd380d848ca6
-vendor/lib64/libsdm-disp-vndapis.so|a4e271a373b83b1e04afdbff63ab37154aead5f9
-vendor/lib64/libsdmextension.so|fe6d0c574df498dd768f9d2e1d3fbc5c558883d0
-vendor/lib64/libtinyxml2_1.so|70942325afdd14eedcf11b3fbbfbc3d98f42f8dc
+# Graphics (Postprocessing) - from LA.QSSI.15.0.r1-12900-qssi.0
+system_ext/lib64/libsd_sdk_display.qti.so|77deda9142f0bb2b18f65597003e267d88f5fc48
+system_ext/lib64/libsdm-disp-apis.qti.so|eeb2a8a6ef44909357f7279e64422f7694fa8545
+system_ext/lib64/vendor.display.color@1.0.so|e887c0d7899b9b1bd2c8ae43be82b444452a1a6f
+system_ext/lib64/vendor.display.color@1.1.so|6a033c803d73a54b83adcb77e9146dd3dd79499d
+system_ext/lib64/vendor.display.color@1.2.so|21527bf2f63e98ef27f9739804b760c59509b6b2
+system_ext/lib64/vendor.display.postproc@1.0.so|7c89073b693db96036fc18817bbbd2043e90794e
 
-# Graphics (Vulkan) - from LA.UM.8.2.1.r1-05600-sdm660
-vendor/lib/hw/vulkan.sdm660.so|404862c00279f222b1a9277bf773a96a605ba99b
-vendor/lib64/hw/vulkan.sdm660.so|785505bf473e486cd7ce1a034ccba46381830a6e
+# Graphics (Postprocessing) - from Zebra/helios/helios:13/13-32-14.00-TG-U02-STD-HEL-04/163:user/release-keys
+vendor/bin/hw/vendor.display.color@1.0-service|f21f110b890278b94616b40a83277426c07bfcef
+vendor/bin/mm-pp-dpps|8a3c5968edaf259a982e99455ffd9b34168237a6
+vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
+vendor/lib/vendor.display.color@1.0.so|4cfc58d5531fe2a8583f9f4057a922cbe7fa553d
+vendor/lib/vendor.display.color@1.1.so|0ee913ec1db6386e0ceca73e1472fd3b16fa7abf
+vendor/lib/vendor.display.color@1.2.so|f8e3c3352dabcf3967ac7a13ca5e378c6e313104
+vendor/lib/vendor.display.postproc@1.0.so|cb6c568f3678154bcf86b24e7e3b11f16da1728b
+vendor/lib64/libdisp-aba.so|9ce877f02ff7fd2b429aebe7c8e95a0c969c395d
+vendor/lib64/vendor.display.color@1.0.so|b502506db34c16d613dc1bcd6d1c5a4098435e21
+vendor/lib64/vendor.display.color@1.1.so|65409342ecea5cfa2103a4ab0b6380ef691e2888
+vendor/lib64/vendor.display.color@1.2.so|ada5c4d7907fe649dda8507c8c6fe63c50ae1e10
+vendor/lib64/vendor.display.postproc@1.0.so|408b4edd234e9da45ab55d64950af8b58ca5e6bf
 
-# Graphics firmware
-vendor/firmware/a512_zap.b00
-vendor/firmware/a512_zap.b01
-vendor/firmware/a512_zap.b02
-vendor/firmware/a512_zap.elf
-vendor/firmware/a512_zap.mdt
-vendor/firmware/a530_gpmu.fw2
-vendor/firmware/a530_pfp.fw
-vendor/firmware/a530_pm4.fw
-vendor/firmware/a530v1_pfp.fw
-vendor/firmware/a530v1_pm4.fw
-vendor/firmware/a530v2_seq.fw2
-vendor/firmware/a530v3_gpmu.fw2
-vendor/firmware/a530v3_seq.fw2
-vendor/firmware/a540_gpmu.fw2
+# Graphics (SDM) - from Zebra/helios/helios:14/14-23-05.00-UG-U05-STD-HEL-04/5:user/release-keys
+system/lib/libsdm-disp-apis.so|369c71b84355d1775cec271b19283721dbfbac63
+system/lib64/libsdm-disp-apis.so|2de535884bb057c6c1bc3fae8a59e79516d908df
+vendor/lib/libqseed3.so|87b37fefb7609474f9d1730c6c6a23c681046fe3
+vendor/lib/libsdm-color.so|408b3a458834a30ed316f50d8bb662b29f16f73e
+vendor/lib/libsdm-diag.so|a83a801ba72e7f94533ba8340f8ebe51f6d4b941
+-vendor/lib/libsdm-disp-vndapis.so|16ea053728a1bf0fc6c285c8cf193dcaa9cc6ffc
+vendor/lib/libsdmextension.so|b97d77474f5991d3d038b9633c6ccfda67f3e1ec
+vendor/lib/libtinyxml2_1.so|dfe3efe3a6e5ad5beb6e4e9adb02eef475b421a7
+vendor/lib64/libqseed3.so|0a81db5fc5b762a8fd246dfccd69014662fe35eb
+vendor/lib64/libsdm-color.so|8c997688894a6373787e1eabbb62f719bbb632b4
+vendor/lib64/libsdm-diag.so|1b27bcbdba062afc1d414b30c1efcd08ac4140cf
+-vendor/lib64/libsdm-disp-vndapis.so|c8408b9e8d9ee4cf82eb0c0000fb348848ff3c55
+vendor/lib64/libsdmextension.so|9a4342e9417fd7cee2eb4d34c55762c4de6811ae
+vendor/lib64/libtinyxml2_1.so|5bdb5c7785f90ad4ebaa7085a4f83d86567331f9
 
+# Graphics (Vulkan) - from Zebra/helios/helios:14/14-23-05.00-UG-U05-STD-HEL-04/5:user/release-keys
+vendor/lib/hw/vulkan.adreno.so|1f6c263e550e5f467f1628dae5d00130f8501a8a
+vendor/lib64/hw/vulkan.adreno.so|2c371b131a2672c96d7ecf02bcbda954f9662879
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
